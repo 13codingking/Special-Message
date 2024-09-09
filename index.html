@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am Sorry dear Angel❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        img {
+            width: 160px; 
+            height: 160px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .image-wrapper {
+            display: inline-block;
+            position: relative;
+        }
+        .hover-message {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(226, 208, 208, 0.774);
+            color: #da0808;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1em;
+            max-width: 200px;
+            opacity: 0; 
+            transition: opacity 0.3s;
+            text-align: center;
+        }
+        .image-wrapper:hover .hover-message {
+            opacity: 22; 
+        }
+        .flower:hover img,
+        .teddy:hover img,
+        .balloon:hover img,
+        .chocolate:hover img {
+            transform: scale(1.1); 
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-gallery div {
+            margin: 10px;
+        }
+        .shayari {
+            font-size: 1.2em;
+            color: #ff6f61;
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 5px solid #ff6f61;
+            background: #fff4f4;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            box-sizing: border-box;
+            border: 2px solid red;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .spotify-player {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin-top: 60px;
+        }
+
+        .spotify-player iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            img {
+                width: 200px; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>I'm So Sorry ANGEL❤️!</h1>
+    </header>
+    <main class="container">
+        <h2>* Dear Bache❤️ *</h2>
+        <p>I am really Sorry for that day bache❤️ . Take care your health bache❤️  & I Miss You Also. I hope this make little smile to your face.</p>
+        <p>Everything is for you Bache❤️... <br> Please Hover & Click this pictures Angel❤️...</p>
+        
+     
+        <div class="image-gallery">
+            <div class="image-wrapper flower" onmouseover="updateMessage('Sorry! I hope this flower brightens your day!')">
+                <img src="f1.jpg" alt="Flower">
+                <div class="hover-message">Sorry Bache❤️! I hope this flower looks like you Angel❤️!</div>
+            </div>
+          
+         
+            <div class="image-wrapper chocolate" onmouseover="updateMessage('Sending you sweet apologies! ❤️')">
+                <img src="c1.webp" alt="Chocolate">
+                <div class="hover-message">Sorry dear bache❤️!</div>
+            </div>
+            <div class="image-wrapper balloon" onmouseover="updateMessage('Sorry! This balloon is a little gift to cheer you up!')">
+                <img src="b1.jpg" alt="Balloon">
+                <div class="hover-message">Sorry Bache❤️!</div>
+            </div>
+
+            <div class="image-wrapper teddy" onmouseover="updateMessage('Sorry! This teddy bear is a warm hug for you!')">
+                <img src="t1.jpg" alt="Teddy Bear">
+                <div class="hover-message">Sorry Bache❤️! This Tutu was miss you.</div>
+            </div>
+                </div>
+
+ 
+        <div id="dynamic-message" class="hover-message">Hover over an item to see a message!</div>
+
+        <div class="shayari">
+            <p>Sorry Na Bache❤️ Chalo Manta Hu Ho Gayi Galti Ab Maaf Bhi Kardo,<br>
+            Mujhe Ab Ye Tumhari Narazgi Achhi Ni Lagti. <br>
+            Ab Jo Madam Ji Bolegi Vhi Krenge Bs.
+        </p>
+        </div>
+
+
+        <div class="container1">
+            <h1>This Song Is Special For You,Angel❤️</h1>
+            <div class="spotify-player">
+                <iframe src="https://open.spotify.com/embed/track/0TqOvKVUVGouGv4pyR5gj0?si=3e6685adc7044448" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Sorry Bache❤️!</p>
+         
+    </footer>
+
+    <script>
+        function updateMessage(message) {
+            document.getElementById('dynamic-message').innerText = message;
+        }
+
+            alert('Sorry angel❤️! Please take care your health bache❤️.');
+    </script>
+
+</body>
+</html>
